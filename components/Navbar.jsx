@@ -15,9 +15,9 @@ function Navbar() {
         } transition-all delay-300`}
       >
         <Link href={"/"}>
-            <div className={`${smFont} ${lgFont}  font-bold  `}>
-              Where in the world?
-            </div>
+          <div className={`${smFont} ${lgFont}  font-bold  `}>
+            Where in the world?
+          </div>
         </Link>
         <div
           className="flex items-center gap-1 cursor-pointer p-2 rounded-full md:rounded-md bg-gray-500 md:bg-transparent md:px-4 md:py-2   hover:opacity-50   md:text-lg font  transition duration-500 ease-in-out opacity-75 "
