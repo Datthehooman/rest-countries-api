@@ -19,7 +19,7 @@ export default function Home({ data }) {
   return (
     <div className="dark:bg-red-200">
       <Head>
-        <title>UtkWorld </title>
+        <title>Rest Countries API</title>
       </Head>
       <main className=" scroll-smooth ">
         <SearchBox
@@ -38,6 +38,6 @@ export async function getServerSideProps() {
   const data = await res.json();
 
   return {
-    props: { data },
+    props: { data }
   };
 }

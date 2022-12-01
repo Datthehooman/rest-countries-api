@@ -8,19 +8,15 @@
 }
 
 .containerGrid {
-  /* background-color: lightblue; */
 }
 
 @media only screen and (max-width: 84rem) {
   .containerGrid {
-    /* background-color: lightblue; */
     display: grid;
-    /* grid-template-columns: 1fr 1fr 1fr; */
   }
 }
 @media only screen and (max-height: 101vh) {
   .hide-arrow {
-    /* @apply hidden  */
     @apply fixed;
   }
 }
@@ -31,5 +27,5 @@
 }
 
 .nav {
-  @apply sticky top-0; 
+  @apply sticky top-0;
 }
