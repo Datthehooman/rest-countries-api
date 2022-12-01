@@ -4,7 +4,6 @@ import Link from "next/link";
 
 function Navbar() {
   let { theme, setTheme } = useTheme("dark");
-  console.log(theme);
   const smFont = "text-xl ";
   const lgFont = " md:text-2xl";
   return (
@@ -12,7 +11,7 @@ function Navbar() {
       <div
         className={`sticky  top-0  z-50   flex w-full  shadow-xl justify-between px-8  md:px-14 py-5  items-center mb-8 ${
           theme === "dark" ? "bg-[#121212] text-white" : "bg-white text-black"
-        } transition-all delay-300`}
+        } transition-all`}
       >
         <Link href={"/"}>
           <div className={`${smFont} ${lgFont}  font-bold  `}>
