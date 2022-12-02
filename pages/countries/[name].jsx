@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Link from "next/dist/client/link";
 
-export default function CartFullPage({ apidata }) {
+export default function CardFullPage({ apidata }) {
   const data = apidata[0];
   const countNativeName = Object.keys(data.name.nativeName).length;
   const NativeName = countNativeName >= 2 ? true : false;
